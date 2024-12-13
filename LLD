@@ -8,10 +8,22 @@ Executors and Callables
 Synchronization: Mutex,Semaphones
 Synchronization : Atomic Data types, Concurrent DS
 Synchronization : SOLID 1- SRP and OCP
-Liskov's Interface segregation, Dependency Inversion
+Liskov's , Interface segregation, Dependency Inversion
 Java Advanced Concepts -1 | Collections and Generics
 Concurrency -2 | Executors and callables
 Concurrency - 3 | Intro to Synchronization
 Concurrency - 4 | Synchronization and semaphores
 Java Advanced Concepts - Collections and Generics
 Exception Handling, Reflection, Annotation
+
+
+Design Patterns:-
+Introduction and Singleton
+Builder
+Prototype and Registry
+Factory
+Adapter and Facade Design Pattern
+Decorator and FlyWeight Design Pattern
+Behavioural Design Pattern
+
+
