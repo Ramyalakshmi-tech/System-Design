@@ -4,6 +4,7 @@ Java oops - Git and Oops refresher
 Java oops - Inheritance and Polymorphism
 Java oops - Interface, Abstract Classes
 Introduction to Threads
+Executors and Callables
 Synchronization: Mutex,Semaphones
 Synchronization : Atomic Data types, Concurrent DS
 Synchronization : SOLID 1- SRP and OCP
