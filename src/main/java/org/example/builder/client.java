@@ -2,7 +2,7 @@ package org.example.builder;
 
 public class client {
     public static void main(String[] args){
-        Builder builder=new Builder();
+     /*   Builder builder=new Builder();
         builder.setName("Ramya");
         builder.setAge(23);
         builder.setUnivName("Sathyabama");
@@ -13,5 +13,14 @@ public class client {
         System.out.println(student.getName());
         System.out.println(student.getAge());
         System.out.println(student.getBatchName());
+
+      */
+
+        student student1= student.getbuilder()
+                .setName("abc")
+                .setAge(23)
+                .setUnivName("sathyabama")
+                .build();
+
     }
 }

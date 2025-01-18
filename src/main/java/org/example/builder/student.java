@@ -21,6 +21,7 @@ public class student {
     }
     public void setName(String name) {
         this.name = name;
+
     }
 
     public void setAge(int age) {
@@ -59,5 +60,8 @@ public class student {
         return phone;
     }
 
+public static Builder getbuilder(){
+        return new Builder();
+}
 
 }

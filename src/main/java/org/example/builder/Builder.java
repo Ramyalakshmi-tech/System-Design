@@ -2,29 +2,35 @@ package org.example.builder;
 
 public class Builder {
     private String name;
-
+    private int age;
+    private String univName;
+    private String batchName;
+    private String phone;
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public Builder setName(String name) {
         this.name = name;
+        return this;
     }
 
     public int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public Builder setAge(int age) {
         this.age = age;
+        return this;
     }
 
     public String getUnivName() {
         return univName;
     }
 
-    public void setUnivName(String univName) {
+    public Builder setUnivName(String univName) {
         this.univName = univName;
+        return this;
     }
 
     public String getBatchName() {
@@ -43,10 +49,9 @@ public class Builder {
         this.phone = phone;
     }
 
-    private int age;
-    private String univName;
-    private String batchName;
-    private String phone;
+   public student build(){
+        return new student(this);
+   }
 
 
 }
